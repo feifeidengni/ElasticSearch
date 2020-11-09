@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    cache: false   #关闭缓存
+    #开启MVC thymeleaf 视图解析
+    enabled: true
+    encoding: utf-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
